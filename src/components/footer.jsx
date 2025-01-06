@@ -36,21 +36,25 @@ export default function Footer() {
                 <div>
                     <div className={"text-[#777777] font-bold my-4"}>OTHER SITES</div>
                     <ul>
-                        <li>Vacancies</li>
-                        <li>ETHNE</li>
+                        <li>
+                            <a href={"https://www.fga.my/vacancies/"}>Vacancies</a>
+                        </li>
                         <li>
                             <a href={"https://www.fgacyc.com/"}>FGA CYC</a>
+                        </li>
+                        <li>
+                            <a href={"https://www.fgacyc.tech/"}>FGA Tech</a>
                         </li>
                     </ul>
                 </div>
 
 
-                <div >
+                <div>
                     <div className={"text-[#777777] font-bold my-4"}>CONNECT WITH US</div>
                     <div className={"flex text-white"}>
-                        <FaFacebookF className={"w-5 h-5 mr-4"}/>
-                        <FaYoutube className={"w-5 h-5 mr-4"}/>
-                        <FaInstagram className={"w-5 h-5 mr-4"}/>
+                        <a href={"https://www.facebook.com/fga.my"}><FaFacebookF className={"w-5 h-5 mr-4"}/></a>
+                        <a href={"https://www.youtube.com/channel/UCvoYrHt9DlPpcN8vrxrNvaQ"}><FaYoutube className={"w-5 h-5 mr-4"}/></a>
+                        <a href={"https://www.instagram.com/fga.my/"}><FaInstagram className={"w-5 h-5 mr-4"}/></a>
                     </div>
                 </div>
             </div>
